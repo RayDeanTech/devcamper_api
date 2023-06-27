@@ -1,6 +1,6 @@
 # About
 
-This is will be a live demo I will actually host, possibly on Azure. Obvi, I need to get it working locally first.  We'll see.  Stay tuned.  Credits to Brad below.
+This will be a live demo I intend to actually host on Azure, if possible. Obvi, I need to get it working locally first.  We'll see.  Stay tuned.  Credits to Brad below.
 
 # Provider
 
