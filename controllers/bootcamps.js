@@ -8,7 +8,7 @@ const Bootcamp = require('../models/Bootcamp');
 exports.getBootcamps = asyncHandler(async (req, res, next) => {
 
     const bootcamps = await Bootcamp.find();
-    
+
     res
         .status(200)
         .json({ success: true, count: bootcamps.length, data: bootcamps });
@@ -19,6 +19,7 @@ exports.getBootcamps = asyncHandler(async (req, res, next) => {
 // @route   GET /api/v1/bootcamps/:id
 // @access  Public
 exports.getBootcamp = asyncHandler(async (req, res, next) => {
+    
     const bootcamp = await Bootcamp.findById(req.params.id);
 
     if (!bootcamp) {
